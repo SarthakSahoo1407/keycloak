@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: demo-keycloak-app
+    env: docker
+    plan: free
+    dockerContext: .
+    dockerfilePath: Dockerfile
+    autoDeploy: true
